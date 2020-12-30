@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebApp>
+    <!-- Language Specific data-->
+    <Messages>
+        <Warning>Warning</Warning>
+
+    </Messages>
+</WebApp>
+
+

@@ -1,0 +1,23 @@
+<suite name="Test Suite" verbose="1" parallel="false" >
+
+
+    <test name="First Automation Test Case" preserve-order="true"  >
+        <parameter name="dataFile"  value="TestInput.xls"/>
+        <parameter name="dataSheet" value="TestInp" />
+        <classes>
+            <class name="com.scripts.CoreStartup">
+                <methods><include name="StartUp"/></methods>
+            </class>
+        </classes>
+    </test>
+
+    <!--<test name="Data driven Automation Test Case" preserve-order="true"  >
+        <parameter name="dataFile"  value="TestInput.xls"/>
+        <parameter name="dataSheet" value="TestInp" />
+        <classes>
+            <class name="com.scripts.MyTest">
+                <methods><include name="DataDrivenTest"/></methods>
+            </class>
+        </classes>
+    </test>-->
+</suite>
